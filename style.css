@@ -295,3 +295,134 @@ padding: 5px;
     font-size: 0.7rem;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                MEDIA QUERIES                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width:1150px) {
+    .container, header {
+        max-width: 750px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:750px) {
+
+    /* --------------------------------- HEADER --------------------------------- */
+
+    header, .container {
+        max-width: 550px;
+    }
+
+    header {
+        height: 1000px;
+    }
+
+    .hero {
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-right: initial;
+        padding: 30px;
+    }
+
+    .hero-img {
+        padding: 30px;
+    }
+
+    /* ---------------------------------- CARDS --------------------------------- */
+    .card {
+        flex-direction: column;
+        height: 100%;
+        /* max-width: 500px; */
+        margin: 20px auto;
+    }
+
+    .card .card-img {
+        width: 60%;
+    }
+
+    .card:nth-child(odd) .card-content {
+        order: 2;
+        padding: 40px ;
+
+    }
+
+    .card:nth-child(even) .card-content {
+        padding: 40px;
+    }
+
+    .card:nth-child(even) .card-img {
+        padding: initial;
+    }
+
+    /* --------------------------------- FOOTER --------------------------------- */
+    .contact {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .container, header {
+        max-width: 450px;
+    }
+    nav .try a {
+        width: 140px;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-card {
+        width: 320px;
+    }
+
+    .footer-card h3 {
+        font-size: 1rem;
+    }
+    .footer-card a {
+        padding: 10px 20px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container, header {
+        max-width: 300px;
+    }
+
+    nav .try a {
+        width: 100px;
+        padding: 5px;
+    }
+    .hero-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .card:nth-child(odd) .card-content {
+        padding: 20px ;
+        text-align: center;
+
+    }
+
+    .card:nth-child(even) .card-content {
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    
+    .contact .infos .contact-info {
+        width: 300px;
+    }
+}
+
