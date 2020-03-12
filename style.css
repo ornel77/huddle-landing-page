@@ -143,6 +143,7 @@ nav .try a:hover {
 /* -------------------------------------------------------------------------- */
 .cards {
     margin: 100px 0;
+    margin-bottom: 230px;
 }
 
 .card {
@@ -176,3 +177,121 @@ nav .try a:hover {
     color: #999;
     line-height: 1.5;
 }
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+ footer {
+    background-color: var(--dark-cyan);
+    color: white;
+    position: relative;
+}
+
+.footer-card {
+    position: absolute;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+}
+
+.footer-card h3 {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.footer-card a {
+    background-color: var(--pink);
+    color: white;
+    width: 250px;
+    padding: 15px 30px;
+}
+
+.footer-card a:hover {
+    color: var(--dark-cyan);
+    background-color: white;
+}
+
+.footer-logo {
+    padding-top: 100px;
+    width: 20%;
+}
+
+.footer-logo img {
+    color: white;
+}
+
+.contact {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .infos .contact-info {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 20px;
+} 
+
+.contact .infos .contact-info p {
+    font-size: 0.8rem;
+}
+.contact .infos .contact-info .location {
+    margin-right: 15px;
+}
+.contact .infos .contact-info .location img {
+    width: 15px;
+
+}
+
+.contact ul li {
+    margin-bottom: 15px;
+}
+.contact ul a{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.contact ul a:hover {
+    color: var(--pale-cyan);
+}
+
+.socials a {
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    background-color: white;
+    color: var(--dark-cyan);
+
+}
+
+.socials a i {
+    width: 30px;
+padding: 5px;
+
+}
+
+.copyright p{
+    text-align: right;
+    padding-bottom: 20px;
+    font-size: 0.7rem;
+}
+
